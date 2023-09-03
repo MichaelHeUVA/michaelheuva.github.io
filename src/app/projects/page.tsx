@@ -13,7 +13,7 @@ export default function Projects() {
             <div className="text-3xl">{items?.name}</div>
             <div>
               {items?.skills.map((list) => (
-                <div>{list}</div>
+                <div key={list}>{list}</div>
               ))}
             </div>
             <div>{items?.date}</div>

@@ -14,7 +14,7 @@ export default function Experience() {
             <div>{items?.role}</div>
             <div>{items?.date}</div>
             {items?.description.map((list) => (
-              <div>{list}</div>
+              <div key="list">{list}</div>
             ))}
           </div>
         ))}

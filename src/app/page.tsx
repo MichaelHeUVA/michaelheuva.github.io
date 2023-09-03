@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <div>Michael He</div>
-      <div>I'm a second year at UVA </div>
+      <div>I&apos;m a second year at UVA </div>
       <Footer />
     </>
   );
