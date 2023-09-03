@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
       <div className="flex justify-center h-10">
-        <div className="flex justify-between items-center w-1/3">
+        <div className="flex justify-between items-center w-1/2">
           {NavbarList.map((items) => (
             <Link key={items?.name} href={items.path}>
               {items?.name}

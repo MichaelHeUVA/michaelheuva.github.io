@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <link
           rel="icon"
-          href={`${process.env.FAVICON}/favicon.ico`}
+          href={`${process.env.BASEPATH}/favicon.ico`}
           sizes="any"
         />
         <link

@@ -5,7 +5,12 @@ export default function Resume() {
   return (
     <>
       <Navbar />
-      <div>Resume</div>
+      <div className="flex justify-center">
+        <iframe
+          className="w-screen h-screen"
+          src="Michael He Resume.pdf"
+        ></iframe>
+      </div>
     </>
   );
 }
