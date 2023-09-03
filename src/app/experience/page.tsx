@@ -9,7 +9,7 @@ export default function Experience() {
       <Navbar />
       <div className="flex justify-center">
         {ExperienceList.map((items) => (
-          <div>
+          <div key={items?.companyName}>
             <div className="text-3xl">{items?.companyName}</div>
             <div>{items?.role}</div>
             <div>{items?.date}</div>

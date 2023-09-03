@@ -9,7 +9,7 @@ export default function Projects() {
       <Navbar />
       <div className="flex justify-center">
         {ProjectList.map((items) => (
-          <div>
+          <div key={items?.name}>
             <div className="text-3xl">{items?.name}</div>
             <div>
               {items?.skills.map((list) => (
