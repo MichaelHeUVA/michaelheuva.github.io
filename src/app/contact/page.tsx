@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Navbar />
-      <div>Michael He</div>
+      <div>Contact</div>
     </>
   );
 }
