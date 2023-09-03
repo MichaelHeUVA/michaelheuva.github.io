@@ -6,6 +6,7 @@ const nextConfig = {
     path: "",
   },
   basePath: "/michaelhe.github.io",
+  assetPrefix: "/michaelhe.github.io/",
 };
 
 module.exports = nextConfig;
