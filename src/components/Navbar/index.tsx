@@ -1,5 +1,6 @@
 import React from "react";
 import { NavbarList } from "@/utils/config";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -7,9 +8,9 @@ export default function Navbar() {
       <div className="flex justify-center h-10">
         <div className="flex justify-between items-center w-1/3">
           {NavbarList.map((items) => (
-            <a key={items?.name} href={items.path}>
+            <Link key={items?.name} href={items.path}>
               {items?.name}
-            </a>
+            </Link>
           ))}
         </div>
       </div>
