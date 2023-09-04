@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div>Michael He</div>
+      <div className="text-9xl">Michael He</div>
       <div>I&apos;m a second year at UVA </div>
       <Footer />
     </>

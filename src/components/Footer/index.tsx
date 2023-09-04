@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div className="fixed bottom-3 w-screen">
+      <footer className="mt-[100px] mb-[5px]">
         <div className="flex justify-center">
           <a
             href="https://github.com/MichaelHeUVA/michaelhe.github.io"
@@ -12,7 +12,7 @@ export default function Footer() {
             Designed and Built by Michael He
           </a>
         </div>
-      </div>
+      </footer>
     </>
   );
 }
