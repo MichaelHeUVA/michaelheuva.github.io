@@ -1,19 +1,19 @@
 export const NavbarList = [
   {
     name: "Home",
-    path: "/",
+    path: "#home",
   },
   {
     name: "Experience",
-    path: "/experience",
+    path: "#experience",
   },
   {
     name: "Projects",
-    path: "/projects",
+    path: "#projects",
   },
   {
     name: "Resume",
-    path: "/resume",
+    path: "#resume",
   },
 ];
 

@@ -1,12 +1,9 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
 import { ProjectList } from "@/utils/constants";
-import Footer from "@/components/Footer";
 
 export default function Projects() {
   return (
     <>
-      <Navbar />
       <div className="flex justify-center">
         <div className="flex flex-wrap w-[80%] justify-evenly">
           {ProjectList.map((items) => (
@@ -32,7 +29,6 @@ export default function Projects() {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 }

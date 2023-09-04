@@ -1,12 +1,9 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
 import { ExperienceList } from "@/utils/constants";
-import Footer from "@/components/Footer";
 
 export default function Experience() {
   return (
-    <>
-      <Navbar />
+    <div id="#experience">
       <div className="flex justify-center">
         {ExperienceList.map((items) => (
           <a
@@ -38,7 +35,6 @@ export default function Experience() {
           </a>
         ))}
       </div>
-      <Footer />
-    </>
+    </div>
   );
 }
