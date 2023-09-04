@@ -6,8 +6,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="text-9xl">Michael He</div>
-      <div>I&apos;m a second year at UVA </div>
+      <div className="">
+        <div className="text-9xl">Michael He</div>
+        <div>I&apos;m a second year at UVA </div>
+      </div>
       <Footer />
     </>
   );

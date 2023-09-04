@@ -1,5 +1,5 @@
 import React from "react";
-import { NavbarList } from "@/utils/config";
+import { NavbarList } from "@/utils/constants";
 import Link from "next/link";
 
 export default function Navbar() {

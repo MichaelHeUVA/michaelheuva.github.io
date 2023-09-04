@@ -15,10 +15,6 @@ export const NavbarList = [
     name: "Resume",
     path: "/resume",
   },
-  {
-    name: "Contact",
-    path: "/contact",
-  },
 ];
 
 export const ExperienceList = [

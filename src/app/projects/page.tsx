@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
-import { ProjectList } from "@/utils/config";
+import { ProjectList } from "@/utils/constants";
 import Footer from "@/components/Footer";
 
 export default function Projects() {

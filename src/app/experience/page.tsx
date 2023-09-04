@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
-import { ExperienceList } from "@/utils/config";
+import { ExperienceList } from "@/utils/constants";
 import Footer from "@/components/Footer";
 
 export default function Experience() {
