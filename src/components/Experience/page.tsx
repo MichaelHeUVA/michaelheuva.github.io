@@ -1,5 +1,6 @@
 import React from "react";
 import { ExperienceList } from "@/utils/constants";
+import Image from "next/image";
 
 export default function Experience() {
   return (
@@ -15,10 +16,12 @@ export default function Experience() {
             <div className="flex">
               <div className="mr-5 mt-1">
                 {items.companySVG ? (
-                  <object
-                    type="image/svg+xml"
-                    data={items?.companySVG}
-                  ></object>
+                  <Image
+                    src={process.env.BASEPATH + "/" + items.companySVG}
+                    width={100}
+                    height={100}
+                    alt=""
+                  />
                 ) : (
                   ""
                 )}
