@@ -4,14 +4,15 @@ import Image from "next/image";
 
 export default function Experience() {
   return (
-    <div id="#experience">
+    <div id="experience">
+      <div className="flex justify-center text-5xl mt-10">Experience</div>
       <div className="flex justify-center">
         {ExperienceList.map((items) => (
           <a
             key={items?.companyName}
             href={items?.companyLink}
             target="_blank"
-            className="w-[50%] h-fit p-6 rounded-xl shadow-md mt-10 hover:shadow-xl transition duration-500 ease-in-out"
+            className="w-[50%] h-fit p-6 rounded-xl shadow-md mt-5 hover:shadow-xl transition duration-500 ease-in-out"
           >
             <div className="flex">
               <div className="mr-5 mt-1">

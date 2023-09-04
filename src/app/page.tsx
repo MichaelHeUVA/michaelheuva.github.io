@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import Home from "@/components/Home/page";
 import Projects from "@/components/Projects/page";
 import Experience from "@/components/Experience/page";
-import Resume from "@/components/Resume/page";
 
 export default function App() {
   return (
@@ -13,7 +12,6 @@ export default function App() {
       <Home />
       <Experience />
       <Projects />
-      <Resume />
       <Footer />
     </>
   );

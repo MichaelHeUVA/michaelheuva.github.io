@@ -1,9 +1,5 @@
 export const NavbarList = [
   {
-    name: "Home",
-    path: "#home",
-  },
-  {
     name: "Experience",
     path: "#experience",
   },
@@ -13,7 +9,7 @@ export const NavbarList = [
   },
   {
     name: "Resume",
-    path: "#resume",
+    path: process.env.BASEPATH + "/assets/Resume.pdf",
   },
 ];
 

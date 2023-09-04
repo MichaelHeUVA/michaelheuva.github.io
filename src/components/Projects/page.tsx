@@ -3,7 +3,8 @@ import { ProjectList } from "@/utils/constants";
 
 export default function Projects() {
   return (
-    <>
+    <div id="projects">
+      <div className="flex justify-center text-5xl mt-10">Projects</div>
       <div className="flex justify-center">
         <div className="flex flex-wrap w-[80%] justify-evenly">
           {ProjectList.map((items) => (
@@ -19,9 +20,14 @@ export default function Projects() {
                   <div className="italic">{items?.date}</div>
                 </div>
                 <div>{items?.description}</div>
-                <div className="flex">
+                <div className="flex flex-wrap">
                   {items?.skills.map((list) => (
-                    <div key={list}>{list}</div>
+                    <div
+                      key={list}
+                      className="mt-2 mr-2 flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-medium leading-5"
+                    >
+                      {list}
+                    </div>
                   ))}
                 </div>
               </div>
@@ -29,6 +35,6 @@ export default function Projects() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
