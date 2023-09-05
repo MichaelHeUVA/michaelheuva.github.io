@@ -11,12 +11,14 @@ export default function Projects() {
             <a
               href={items?.link}
               target="_blank"
-              className="shadow-md w-[600px] h-fit p-6 rounded-xl mt-10 hover:shadow-xl transition duration-500 ease-in-out"
+              className="group bg-[#176B87] w-[700px] h-fit p-6 rounded-xl mt-10 transition duration-500 ease-in-out hover:shadow-[inset_0_0_5px_0_rgba(100,204,197,1)]"
               key={items?.name}
             >
               <div>
                 <div className="flex justify-between items-center">
-                  <div className="text-3xl">{items?.name}</div>
+                  <div className="text-3xl transition duration-500 ease-in-out group-hover:text-[#64CCC5]">
+                    {items?.name}
+                  </div>
                   <div className="italic">{items?.date}</div>
                 </div>
                 <div>{items?.description}</div>
@@ -24,7 +26,7 @@ export default function Projects() {
                   {items?.skills.map((list) => (
                     <div
                       key={list}
-                      className="mt-2 mr-2 flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-medium leading-5"
+                      className="mt-2 mr-2 flex items-center rounded-full bg-[#053b50] px-3 py-1 text-xs font-medium leading-5"
                     >
                       {list}
                     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { ExperienceList } from "@/utils/constants";
 import Image from "next/image";
+import { ClassNames } from "@emotion/react";
 
 export default function Experience() {
   return (
@@ -12,10 +13,10 @@ export default function Experience() {
             key={items?.companyName}
             href={items?.companyLink}
             target="_blank"
-            className="w-[50%] h-fit p-6 rounded-xl shadow-md mt-5 hover:shadow-xl transition duration-500 ease-in-out"
+            className="group bg-[#176B87] w-[50%] h-fit p-6 rounded-xl mt-5 transition duration-500 ease-in-out hover:shadow-[inset_0_0_5px_0_rgba(100,204,197,1)]"
           >
             <div className="flex">
-              <div className="mr-5 mt-1">
+              <div className="mr-5 mt-[5px]">
                 {items.companySVG ? (
                   <Image
                     src={process.env.BASEPATH + "/" + items.companySVG}
@@ -29,7 +30,9 @@ export default function Experience() {
               </div>
               <div>
                 <div className="flex justify-between items-center">
-                  <div className="text-3xl">{items?.companyName}</div>
+                  <div className="text-3xl transition duration-500 ease-in-out group-hover:text-[#64CCC5]">
+                    {items?.companyName}
+                  </div>
                   <div className="italic">{items?.date}</div>
                 </div>
                 <div>{items?.role}</div>

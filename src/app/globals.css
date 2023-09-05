@@ -19,3 +19,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background: #053b50;
+
+  color: #eeeeee;
+}
