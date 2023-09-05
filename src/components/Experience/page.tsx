@@ -1,7 +1,6 @@
 import React from "react";
 import { ExperienceList } from "@/utils/constants";
 import Image from "next/image";
-import { ClassNames } from "@emotion/react";
 
 export default function Experience() {
   return (
