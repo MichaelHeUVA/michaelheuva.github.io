@@ -7,12 +7,7 @@ export default function Links() {
     <div className="flex justify-center mt-10">
       {SocialsList.map((items) => (
         <a href={items?.link} key={items?.name} target="">
-          <Image
-            src={process.env.BASEPATH + items?.svg}
-            width={50}
-            height={50}
-            alt=""
-          ></Image>
+          <Image src={items?.svg} width={50} height={50} alt=""></Image>
         </a>
       ))}
     </div>

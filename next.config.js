@@ -5,8 +5,6 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: process.env.BASEPATH,
-  assetPrefix: process.env.BASEPATH,
 };
 
 module.exports = nextConfig;

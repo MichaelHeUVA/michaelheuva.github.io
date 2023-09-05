@@ -17,11 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link
-          rel="icon"
-          href={`${process.env.BASEPATH}/favicon.ico`}
-          sizes="any"
-        />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

@@ -18,7 +18,7 @@ export default function Experience() {
               <div className="mr-5 mt-[5px]">
                 {items.companySVG ? (
                   <Image
-                    src={process.env.BASEPATH + "/" + items.companySVG}
+                    src={items.companySVG}
                     width={100}
                     height={100}
                     alt=""

@@ -9,7 +9,7 @@ export const NavbarList = [
   },
   {
     name: "Resume",
-    path: process.env.BASEPATH + "/Michael-He-Resume.pdf",
+    path: "/Michael-He-Resume.pdf",
   },
 ];
 
