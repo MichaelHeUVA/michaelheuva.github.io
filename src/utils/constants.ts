@@ -19,9 +19,9 @@ export const ExperienceList = [
     companySVG: "./runway.svg",
     companyLink: "https://www.joinrunway.io/",
     role: "Software Engineer Intern",
-    date: "January 2023 - Present",
+    date: "January 2023 - March 2024",
     description:
-      "Produced production level code to manage over 1000 college students and businesses. Interacted with other developers to manage and build a full stack website. Collaborated with project managers, designers, and developers to define project goals, requirements, and timelines. Built over 20 user interface components and pages using Next.js, React.js, and Tailwind CSS. Worked with developers to build Java Spring backend routes to organize over 200 business projects.",
+      "Interacted with other developers to manage and build a full stack website with React.js, Next.js, and Tailwind CSS. Produced production level code to manage over 2000 college students and businesses. Collaborated with project managers, designers, and developers to define project goals, requirements, and timelines. Built over 20 user interface components and pages using Next.js, React.js, and Tailwind CSS. Collaborated with developers to build Java Spring Boot backend routes hosted on an Amazon EC2 instance to organize over 200 business projects. Interacted with the AWS DynamoDB and AWS S3 to retrieve and render website components. Utilized Tailwind CSS and flex box to optimize desktop and mobile views",
   },
 ];
 
@@ -29,7 +29,7 @@ export const ProjectList = [
   {
     name: "Personal Portfolio",
     link: "https://github.com/MichaelHeUVA/michaelhe.github.io",
-    skills: ["React.js", "Next.js", "Tailwind CSS", "GitHub", "Git"],
+    skills: ["React.js", "Next.js", "Tailwind CSS", "GitHub", "Github Pages"],
     date: "September 2023 - Present",
     description:
       "Designed and developed a personal portfolio website utilizing modern web technologies, including Next.js, Tailwind CSS, and TypeScript. Utilized Tailwind CSS for responsive and visually appealing UI/UX design, ensuring a seamless user experience across various devices. Deployed the web app to GitHub pages and resolved linking conflicts.",
@@ -37,26 +37,40 @@ export const ProjectList = [
   {
     name: "CheapGPT",
     link: "https://github.com/MichaelHeUVA/CheapGPT",
-    skills: ["JavaScript", "Discord API", "OpenAI API"],
+    skills: ["Node.js", "Discord API", "OpenAI API", "Sqlite3"],
     date: "June 2023 - Present",
     description:
-      "Created a Node.js based Discord bot to allow users to interact with ChatGPT 4 in a server setting. Continuously maintain and update the Discord bot to ensure optimal performance and scalability. Generated a file directory system when the text exceeded the Discord character limit. Implemented commands for users to interact with the bot.",
+      "Launched a Node.js based Discord bot to allow users to interact with ChatGPT 4 with vision in a server setting. Continuously maintain and update the Discord bot to ensure optimal performance and scalability. Generated a file directory system when the text exceeded the Discord character limit. Implemented commands for users and allowed users to create multiple conversations. Used SQLite3 to store the API usage for each unique user",
   },
   {
-    name: "Runway Website",
-    link: "https://www.joinrunway.io/",
+    name: "HooGrades",
+    link: "https://github.com/MichaelHeUVA/HooGrades",
     skills: [
       "Next.js",
-      "React.js",
-      "Java Spring",
       "Tailwind CSS",
-      "Amazon DynamoDB",
-      "Git",
-      "TypeScript",
+      "AWS Lambda",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS EC2",
+      "Github",
     ],
-    date: "January 2023 - Present",
+    date: "March 2024",
     description:
-      "Launched a full stack website modeled using Figma. Built a page for businesses to view student profiles. Developed a page listing business submitted projects created functionalities for students to apply/unapply to projects. Restructured pricing and home landing pages with Next.js. Interacted with the AWS DynamoDB and AWS S3 to retrieve and render website components. Utilized Tailwind CSS and flexbox to optimize desktop and mobile views. Generated backend routes using Java Spring Boot hosted on an Amazon EC2 instance. Working to rebuild the entire site from React.js to Next.js and Tailwind CSS.",
+      "Participated in a 24 hour hackathon competing against a field of 700 contestants. Developed a full-stack web application using with AWS Lambda serving a REST API with Next.js as the frontend. Spearheaded the UI/UX design using Figma for HooGradess. Utilized OpenAi's vision API to grade students' work. Integrated Framer Motion to incorporate fluid animations, improving the website's interactivity and visual appeal. Implemented a robust backend architecture on AWS, using services such as Lambda, DynamoDB, S3, and EC2, ensuring scalability, reliability, and high performance of the HooGrades platform. Facilitated team collaboration and effective version control using GitHub, leading to streamlined development. processes, efficient resolution of merge conflicts, and maintenance of high-quality code standards",
+  },
+  {
+    name: "HoosReport",
+    link: "https://project-b-01-d00b72518ac8.herokuapp.com/",
+    skills: [
+      "Python Django",
+      "AWS S3",
+      "Postgresql",
+      "Heroku",
+      "Github Actions",
+    ],
+    date: "January 2024 - Present",
+    description:
+      "Created a whistleblower app with the python Django framework and deployed it using Heroku. Ensured the functionality of systems as the DevOps role for the team. Utilized the Agile Methodology to complete sprints over the course of the semester. Employed Amazon S3 to store files and Postgresql to store the users information. Set up continuous integration using Github Actions which automated tests every time code was committed.",
   },
   {
     name: "Chess Elo Calculator",

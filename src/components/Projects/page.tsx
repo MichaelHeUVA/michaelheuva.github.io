@@ -4,7 +4,9 @@ import { ProjectList } from "@/utils/constants";
 export default function Projects() {
   return (
     <div id="projects">
-      <div className="flex justify-center text-5xl mt-10">Projects</div>
+      <div className="flex justify-center text-5xl mt-10">
+        Relavent Projects
+      </div>
       <div className="flex justify-center">
         <div className="flex flex-wrap w-[80%] justify-evenly">
           {ProjectList.map((items) => (
@@ -16,7 +18,7 @@ export default function Projects() {
             >
               <div>
                 <div className="flex justify-between items-center">
-                  <div className="text-3xl transition duration-500 ease-in-out group-hover:text-[#64CCC5]">
+                  <div className="text-3xl transition duration-500 ease-in-out group-hover:text-[#64CCC5] mb-2">
                     {items?.name}
                   </div>
                   <div className="italic">{items?.date}</div>

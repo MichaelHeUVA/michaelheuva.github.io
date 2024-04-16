@@ -29,7 +29,7 @@ export default function Experience() {
               </div>
               <div>
                 <div className="flex justify-between items-center">
-                  <div className="text-3xl transition duration-500 ease-in-out group-hover:text-[#64CCC5]">
+                  <div className="text-3xl transition duration-500 ease-in-out group-hover:text-[#64CCC5] mb-2">
                     {items?.companyName}
                   </div>
                   <div className="italic">{items?.date}</div>
