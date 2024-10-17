@@ -43,7 +43,7 @@ export default function Home() {
         />{" "}
       </motion.div>
       <motion.div variants={item}>
-        Hi! I&apos;m a second year studying Computer Science and Data Science at
+        Hi! I&apos;m a third year studying Computer Science and Data Science at
         UVA.
       </motion.div>
     </motion.div>

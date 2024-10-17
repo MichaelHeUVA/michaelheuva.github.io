@@ -3,8 +3,8 @@ import { NavbarList } from "@/utils/constants";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center h-10 border-b-[1px] border-[#176B87]">
-      <div className="flex justify-between w-1/2">
+    <div className="flex justify-center h-[40px] border-b-[1px] border-[#176B87]">
+      <div className="flex justify-between w-[80%]">
         {NavbarList.map((items) =>
           items.name === "Resume" ? (
             <a

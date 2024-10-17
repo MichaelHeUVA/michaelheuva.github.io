@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Home from "@/components/Home/page";
 import Projects from "@/components/Projects/page";
 import Experience from "@/components/Experience/page";
+import Leadership from "@/components/Leadership/page";
 import Links from "@/components/Links/page";
 import { motion } from "framer-motion";
 
@@ -35,6 +36,7 @@ export default function App() {
       </motion.div>
       <motion.div variants={item}>
         <Experience />
+        <Leadership />
         <Projects />
         <Links />
         <Footer />

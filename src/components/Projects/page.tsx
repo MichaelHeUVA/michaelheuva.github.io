@@ -23,7 +23,11 @@ export default function Projects() {
                   </div>
                   <div className="italic">{items?.date}</div>
                 </div>
-                <div>{items?.description}</div>
+                <div>
+                  {items?.description.map((list) => (
+                    <div key={list}>• {list}</div>
+                  ))}
+                </div>
                 <div className="flex flex-wrap">
                   {items?.skills.map((list) => (
                     <div
