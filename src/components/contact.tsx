@@ -70,7 +70,7 @@ export default function Contact() {
                     <div className="text-left">
                       <div className="font-medium">LinkedIn</div>
                       <div className="text-sm text-muted-foreground">
-                        linkedin.com/in/alexjohnson
+                        linkedin.com/in/michael--he/
                       </div>
                     </div>
                   </a>
@@ -91,7 +91,7 @@ export default function Contact() {
                     <div className="text-left">
                       <div className="font-medium">GitHub</div>
                       <div className="text-sm text-muted-foreground">
-                        github.com/alexjohnson
+                        github.com/MichaelHeUVA
                       </div>
                     </div>
                   </a>
